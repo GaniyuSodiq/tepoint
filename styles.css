@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Plus+Jakarta+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #cae2c7;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    opacity: .6;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav {
+    margin: 50px auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #59b98c;
+    font-size: 2.2rem;
+}
+
+nav .nav-menu{
+    display: flex;
+}
+
+.active a{
+    padding-bottom: 3px;
+    border-bottom: 3px solid #59b98c;
+    color: #031a0f;
+    opacity: 1;
+    font-weight: bold;
+}
+
+nav .nav-menu a:hover{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #59b98c;
+}
+
+nav .lang-careers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang a i{
+    color: #59b98c;
+    opacity: 1;
+}
+
+.careers a{
+    border: 2px solid #59b98c;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 50px;
+}
+
+.careers a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
