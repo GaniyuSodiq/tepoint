@@ -11,7 +11,7 @@ body{
 }
 
 a{
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
     opacity: .8;
@@ -23,8 +23,8 @@ nav ul li {
 }
 
 nav {
-    max-width: 1450px;
-    margin: 70px auto;
+    max-width: 1200px;
+    margin: 50px auto;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@ nav .lang-careers{
 }
 
 .careers a{
-    border: 2px solid #59b98c;
+    border: 1px solid #59b98c;
     border-radius: 5px;
     padding: 10px 15px;
 }
@@ -79,7 +79,7 @@ nav .lang-careers{
 header .container{
     height: 65vh;
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -95,35 +95,35 @@ header .container img{
 }
 
 .header-text h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #1c424f;
     font-weight: bold;
     margin-bottom: 30px;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 .header-text p{
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     opacity: .8;
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .header-text a{
     background: #59b98c;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
-    padding: 20px 25px;
-    font-weight: 200;
+    padding: 10px 15px;
+    font-weight: 400;
 }
 
 .middle {
-    margin: 80px 0;
+    margin: 80px 0 0 0;
     background: #1c424f;
     position: relative;
-    height: 250px;
+    height: 200px;
 }
 
 article .container{
@@ -132,14 +132,14 @@ article .container{
     align-items: center;
     padding: 10px;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1050px;
     height: 100%;
 }
 
 .middle > i {
-    font-size: 12rem;
+    font-size: 10rem;
     color: #59b98c;
-    opacity: .4;
+    opacity: .2;
     position: absolute;
     top: 30px;
     left: -90px;
@@ -159,13 +159,68 @@ article .container{
 
 .middle-text p{
     color: #cae2c7;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .middle a{
     background: #59b98c;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
-    padding: 20px 25px;
+    padding: 10px 15px;
     font-weight: 200;
+}
+
+.middle-pictures{
+    background: #f9f9f9;
+    padding: 100px 0;
+}
+
+.middle-pictures .container{
+    padding: 20px;
+    max-width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.middle-pictures .box{
+    width: 33%;
+    height: 250px;
+}
+
+.middle-pictures img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.middle-pictures p{
+    font-size: 1.2rem;
+    color: #1c424f;
+    font-weight: bold;
+    margin: 15px 0;
+    line-height: 1.3;
+    opacity: .9;
+}
+
+.world-image-section{
+    text-align: center;
+    /* height: 80vh; */
+}
+
+.world-image-section h3{
+    font-size: 2.5rem;
+    color: #1c424f;
+    font-weight: bold;
+    margin: 0;
+}
+
+.world-image-section img{
+    height: 80%;
+    object-fit: fill;
+    max-width: 1200px;
+    margin: 0;
 }
